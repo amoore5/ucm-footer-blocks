@@ -1,0 +1,6 @@
+name = UCM Footer Blocks
+description = To add the campus logo and message at the bottom of the site.
+package = "Custom Blocks"
+version = VERSION
+core = 7.x
+files[] = ucm_footer_blocks.module

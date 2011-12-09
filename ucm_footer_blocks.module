@@ -37,6 +37,10 @@ function ucm_footer_blocks_block_view($delta='') {
 function ucm_footer_blocks_block_info_alter(&$blocks, $theme, $code_blocks) {
   if ($theme = "inception"){
     dsm($blocks);
+    $blocks['ucm_footer_blocks']['brand']['region'] = 'footer';
+    $blocks['ucm_footer_blocks']['bottom-info']['region'] = 'footer_message';
+    $blocks['ucm_footer_blocks']['brand']['status'] = 1;
+    $blocks['ucm_footer_blocks']['bottom-info']['status'] = 1;
   }
 }
 

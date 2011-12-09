@@ -6,14 +6,10 @@
 function ucm_footer_blocks_block_info() {
   $blocks['brand'] = array(
     'info' => t('Bottom Brand'),
-    'region' => 'footer',
-    'status' => 1,
+
   );
   $blocks['bottom-info'] = array(
     'info' => t('Bottom Information'),
-    'region' => 'footer_message',
-    'status' => 1,
-
   );
   
   return $blocks;
@@ -39,9 +35,9 @@ function ucm_footer_blocks_block_view($delta='') {
 *Implements hook_block_info_alter().
 */
 function ucm_footer_blocks_block_info_alter(&$blocks, $theme, $code_blocks) {
-  dsm($blocks);
-  dsm($theme);
-  dsm($code_blocks);
+  if ($theme = "inception"){
+    dsm($blocks);
+  }
 }
 
  /**

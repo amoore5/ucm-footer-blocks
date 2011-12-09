@@ -35,7 +35,7 @@ function ucm_footer_blocks_block_view($delta='') {
 /**
 *Implements hook_block_info_alter().
 */
-function ucm_footer_blocks_block_view_alter(&$blocks, $theme, $code_blocks) {
+function ucm_footer_blocks_block_info_alter(&$blocks, $theme, $code_blocks) {
   dsm($blocks);
   dsm($theme);
   dsm($code_blocks);

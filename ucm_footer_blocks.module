@@ -6,9 +6,11 @@
 function ucm_footer_blocks_block_info() {
   $blocks['brand'] = array(
     'info' => t('Bottom Brand'),
+     'region' => 'footer';
   );
   $blocks['bottom-info'] = array(
     'info' => t('Bottom Information'),
+    'region' => 'footer_message';
   );
   
   return $blocks;

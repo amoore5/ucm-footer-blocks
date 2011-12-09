@@ -30,6 +30,15 @@ function ucm_footer_blocks_block_view($delta='') {
   return $block;
 }
 
+/**
+*Implements hook_block_info_alter().
+*/
+function ucm_footer_blocks_block_info_alter(&$blocks, $theme, $code_blocks) {
+  dsm($blocks);
+  dsm($theme);
+  dsm($code_blocks);
+}
+
  /**
  * custom html block
  * @return string

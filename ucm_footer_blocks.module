@@ -11,6 +11,10 @@ function ucm_footer_blocks_block_info() {
   $blocks['bottom-info'] = array(
     'info' => t('Bottom Information'),
   );
+
+  $blocks['bottom-social-links'] = array(
+    'info' => t('Bottom Social Links'),
+  );
   
   return $blocks;
 }
@@ -26,6 +30,9 @@ function ucm_footer_blocks_block_view($delta='') {
       break;
     case 'bottom-info':
       $block['content'] = bottom_info_contents();
+      break;
+    case 'bottom-social-links':
+      $block['content'] = bottom_social_links_contents();
       break;
   }
   return $block;
@@ -49,5 +56,16 @@ function bottom_info_contents() {
   <div class="footer-info">
     <p><a href="http://www.ucmerced.edu">University of California</a>, Merced 5200 North Lake Rd. Merced, CA 95343 T: (209) 228-4400 <span class="right">&copy; 2010 <a href="http://www.universityofcalifornia.edu/regents/">UC Regents</a> | <a href="http://www.ucmerced.edu/privacylegal.asp">Privacy/Legal</a></span></p>
   </div><!-- /footer-info -->
+  ';
+}
+
+function bottom_social_links_contents() {
+  return '
+  <div class="footer-social-links">
+    <ul>
+      <li><a href="#">Facebook</a></li>
+      <li><a href="#">Twitter</a></li>
+    </ul>
+  </div><!-- /footer-social-links -->
   ';
 }

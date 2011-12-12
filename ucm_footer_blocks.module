@@ -32,6 +32,7 @@ function ucm_footer_blocks_block_view($delta='') {
       $block['content'] = bottom_info_contents();
       break;
     case 'bottom-social-links':
+      $block['subject'] = t('Connect with us');
       $block['content'] = bottom_social_links_contents();
       break;
   }

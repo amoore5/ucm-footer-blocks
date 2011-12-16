@@ -60,7 +60,7 @@ function bottom_info_contents() {
   ';
 }
 
-function bottom_social_links_contents() {
+function bottom_required_links_contents() {
   return '
   <div class="footer-required-links">
     <ul class="menu">

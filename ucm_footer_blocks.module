@@ -12,8 +12,8 @@ function ucm_footer_blocks_block_info() {
     'info' => t('Bottom Information'),
   );
 
-  $blocks['bottom-social-links'] = array(
-    'info' => t('Bottom Social Links'),
+  $blocks['bottom-required-links'] = array(
+    'info' => t('Bottom Required Links'),
   );
   
   return $blocks;
@@ -31,9 +31,9 @@ function ucm_footer_blocks_block_view($delta='') {
     case 'bottom-info':
       $block['content'] = bottom_info_contents();
       break;
-    case 'bottom-social-links':
-      $block['subject'] = t('Connect with Us');
-      $block['content'] = bottom_social_links_contents();
+    case 'bottom-required-links':
+      $block['subject'] = t('Resources');
+      $block['content'] = bottom_required_links_contents();
       break;
   }
   return $block;
@@ -62,11 +62,14 @@ function bottom_info_contents() {
 
 function bottom_social_links_contents() {
   return '
-  <div class="footer-social-links">
+  <div class="footer-required-links">
     <ul class="menu">
-      <li class="facebook"><a href="https://www.facebook.com/ucmerced" target="_blank">Facebook</a></li>
-      <li class="twitter" target="_blank"><a href="https://twitter.com/ucmerced">Twitter</a></li>
-      <li class="linkedin" target="_blank"><a href="http://www.linkedin.com/company/uc-merced">Linkedin</a></li>
+      <li><a href="https://my.ucmerced.edu/" target="_blank">MyUCMerced</a></li>
+      <li><a href="http://ucmercedlibrary.info/" target="_blank">Library</a></li>
+      <li><a href="http://directory.ucmerced.edu/" target="_blank">Directory</a></li>
+      <li><a href="http://directory.ucmerced.edu/" target="_blank">Directory</a></li>
+      <li><a href="http://www.ucmerced.edu/sitelist/" target="_blank">Site List</a></li>
+      <li><a href="https://eng.ucmerced.edu/soe/student-support" target="_blank">Student Support</a></li>
     </ul>
   </div><!-- /footer-social-links -->
   ';

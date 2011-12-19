@@ -67,7 +67,6 @@ function bottom_required_links_contents() {
       <li><a href="https://my.ucmerced.edu/" target="_blank">MyUCMerced</a></li>
       <li><a href="http://ucmercedlibrary.info/" target="_blank">Library</a></li>
       <li><a href="http://directory.ucmerced.edu/" target="_blank">Directory</a></li>
-      <li><a href="http://directory.ucmerced.edu/" target="_blank">Directory</a></li>
       <li><a href="http://www.ucmerced.edu/site-list" target="_blank">Site List</a></li>
       <li><a href="https://eng.ucmerced.edu/soe/student-support" target="_blank">Student Support</a></li>
     </ul>

@@ -70,7 +70,6 @@ function bottom_required_links_contents() {
       <li><a href="http://www.ucmerced.edu/about-uc-merced" target="_blank">About UC Merced</a></li>
       <!-- li><a href="#" target="_blank">Site Content</a></li -->
     </ul>
-    <p><?php echo date('Y'); ?></p>
   </div><!-- /footer-required-links -->
   ';
 }

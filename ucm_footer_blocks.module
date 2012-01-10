@@ -69,7 +69,7 @@ function bottom_required_links_contents() {
       <li><a href="http://directory.ucmerced.edu/" target="_blank">Directory</a></li>
       <li><a href="http://www.ucmerced.edu/directions-map" target="_blank">Directions &amp; Map</a></li>
       <li><a href="http://www.ucmerced.edu/about-uc-merced" target="_blank">About UC Merced</a></li>
-      <li><a href="mailto:' . $site_email . '" target="_blank">Site Content</a></li>
+      <li><a href="mailto:' . $site_email . '" target="_blank">Site Contact</a></li>
     </ul>
   </div><!-- /footer-required-links -->
   ';

@@ -55,7 +55,7 @@ function brand_contents() {
 function bottom_info_contents() {
   return '
   <div class="footer-info">
-    <p><a href="http://www.ucmerced.edu">University of California</a>, Merced 5200 North Lake Rd. Merced, CA 95343 T: (209) 228-4400 <span class="right">&copy; 2010 <a href="http://www.universityofcalifornia.edu/regents/">UC Regents</a> | <a href="http://www.ucmerced.edu/privacy-statement">Privacy/Legal</a></span></p>
+    <p><a href="http://www.ucmerced.edu">University of California, Merced</a> 5200 North Lake Rd. Merced, CA 95343 T: (209) 228-4400 <span class="right">&copy; 2010 <a href="http://www.universityofcalifornia.edu/regents/">UC Regents</a> | <a href="http://www.ucmerced.edu/privacy-statement">Privacy/Legal</a></span></p>
   </div><!-- /footer-info -->
   ';
 }

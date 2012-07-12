@@ -55,7 +55,7 @@ function brand_contents() {
 function bottom_info_contents() {
   return '
   <div class="footer-info">
-    <p><a href="http://www.ucmerced.edu">University of California, Merced</a> 5200 North Lake Rd. Merced, CA 95343 T: (209) 228-4400 <span class="right">&copy; 2010 <a href="http://www.universityofcalifornia.edu/regents/">UC Regents</a> | <a href="http://www.ucmerced.edu/privacy-statement">Privacy/Legal</a></span></p>
+    <p><a href="http://www.ucmerced.edu">University of California, Merced</a> 5200 North Lake Rd. Merced, CA 95343 T: (209) 228-4400 | <a href="http://www.ucmerced.edu/directions-map">Directions</a> <span class="right">&copy; 2010 <a href="http://www.universityofcalifornia.edu/regents/">UC Regents</a> | <a href="http://www.ucmerced.edu/privacy-statement">Privacy/Legal</a> | <a href="mailto:' . $site_email . '" target="_blank">Site Feedback</a></span></p>
   </div><!-- /footer-info -->
   ';
 }
@@ -65,11 +65,9 @@ function bottom_required_links_contents() {
   return '
   <div class="footer-required-links">
     <ul class="menu">
-      <li><a href="http://www.ucmerced.edu/site-list" target="_blank">Site List</a></li>
-      <li><a href="http://directory.ucmerced.edu/" target="_blank">Directory</a></li>
-      <li><a href="http://www.ucmerced.edu/directions-map" target="_blank">Directions &amp; Map</a></li>
-      <li><a href="http://www.ucmerced.edu/about-uc-merced" target="_blank">About UC Merced</a></li>
-      <li><a href="mailto:' . $site_email . '" target="_blank">Site Contact</a></li>
+      <li><a href="http://www.ucmerced.edu/site-list">Site List</a></li>
+      <li><a href="http://directory.ucmerced.edu/">Directory</a></li>
+      <li><a href="http://www.ucmerced.edu/about-uc-merced">About UC Merced</a></li>
     </ul>
   </div><!-- /footer-required-links -->
   ';
